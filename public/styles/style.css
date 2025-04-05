@@ -129,3 +129,43 @@ body {
 .version {
     font-size: 12px;
 }
+
+
+
+/* LOGIN */
+
+.login .banner .container .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bec2c3;
+    border-radius: 10px;
+    color: #ef5862;
+    padding: 5%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .campo input{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 30px;
+    border-style: solid;
+    border-color: #32b9cd;
+    border-radius: 5px;
+
+}
+
+.formulario button{
+    background-color: #ef5862;
+    color: white;
+    padding: 5px;
+    width: 80px;
+}
+
+
